@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 100" width="540" height="100" fill="none">
+  <defs>
+    <linearGradient id="gGold2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1B8"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#936D08"/>
+    </linearGradient>
+    <linearGradient id="cyanG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(18, 12)">
+    <!-- Восьмигранный оптический безель нивелира -->
+    <polygon points="36,4 66,4 84,22 84,52 66,70 36,70 18,52 18,22" stroke="#22304A" stroke-width="2" fill="#0D1524"/>
+    <!-- Оптические засечки перекрестия -->
+    <line x1="51" y1="4" x2="51" y2="12" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="51" y1="62" x2="51" y2="70" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="18" y1="37" x2="26" y2="37" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="76" y1="37" x2="84" y2="37" stroke="#38BDF8" stroke-width="2"/>
+    <!-- РОВНО ОДНА строгая русская буква М (титан) -->
+    <path d="M 28 58 L 28 24 L 51 44 L 74 24 L 74 58" stroke="#E2E8F0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- РОВНО ОДНА золотая кириллическая буква Л (прорезает М и устремляется ввысь) -->
+    <path d="M 37 58 L 51 20 L 65 58" stroke="url(#gGold2)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Лазерная точка центра -->
+    <circle cx="51" cy="37" r="3.5" fill="url(#cyanG)"/>
+    <circle cx="51" cy="37" r="1.5" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(122, 32)">
+    <text x="0" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="900" letter-spacing="3">
+      КАДАСТР <tspan fill="url(#gGold2)">МЛ</tspan>
+    </text>
+    <text x="1" y="44" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="700" letter-spacing="4.5">
+      ИНЖЕНЕРНО-ПРАВОВЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

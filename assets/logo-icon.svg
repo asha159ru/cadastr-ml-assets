@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  <defs>
+    <linearGradient id="iGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1B8"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#936D08"/>
+    </linearGradient>
+    <linearGradient id="iCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="18" fill="#0B0F17" stroke="#22304A" stroke-width="2"/>
+  <g transform="translate(4, 4)">
+    <polygon points="26,6 46,6 60,20 60,52 46,66 26,66 12,52 12,20" stroke="#22304A" stroke-width="1.8" fill="#0D1524"/>
+    <line x1="36" y1="6" x2="36" y2="13" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="36" y1="59" x2="36" y2="66" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="12" y1="36" x2="19" y2="36" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="53" y1="36" x2="60" y2="36" stroke="#38BDF8" stroke-width="2"/>
+    <!-- М -->
+    <path d="M 19 54 L 19 26 L 36 42 L 53 26 L 53 54" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Л -->
+    <path d="M 26 54 L 36 21 L 46 54" stroke="url(#iGold)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="36" cy="36" r="3" fill="url(#iCyan)"/>
+  </g>
+</svg>

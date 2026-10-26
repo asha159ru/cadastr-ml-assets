@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 90" width="500" height="90" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/><stop offset="50%" stop-color="#D4AF37"/><stop offset="100%" stop-color="#AA8214"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15, 12)">
+    <!-- Tripod / Pylon base -->
+    <path d="M 32 6 L 8 58 L 56 58 Z" stroke="url(#g1)" stroke-width="2" fill="none" opacity="0.3"/>
+    <!-- M shaped pylon -->
+    <path d="M 14 58 L 14 20 L 32 44 L 50 20 L 50 58" stroke="url(#g1)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- L shape integrated -->
+    <path d="M 32 44 L 32 58 L 44 58" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="18" r="3" fill="#FCD34D"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="url(#g1)">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      ИНЖЕНЕРНО-ПРАВОВЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

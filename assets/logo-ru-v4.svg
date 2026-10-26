@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="520" height="90" fill="none">
+  <g transform="translate(15, 12)">
+    <path d="M 12 8 L 6 8 L 6 14" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 52 8 L 58 8 L 58 14" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 6 50 L 6 56 L 12 56" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 58 50 L 58 56 L 52 56" stroke="#D4AF37" stroke-width="2"/>
+    <!-- Монограмма: Русская М и встроенная кириллическая Л (шатер) -->
+    <path d="M 14 50 L 14 16 L 27 34 L 40 16 L 40 50" stroke="#F8FAFC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Диагональ Л -->
+    <path d="M 27 34 L 48 50" stroke="#D4AF37" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="27" cy="34" r="2.5" fill="#D4AF37"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="#D4AF37">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      КАДАСТРОВЫЕ И ЗЕМЕЛЬНЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

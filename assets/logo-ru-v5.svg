@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="520" height="90" fill="none">
+  <defs>
+    <linearGradient id="cg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/><stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15, 12)">
+    <path d="M 6 48 C 18 40, 36 54, 58 44" stroke="#1E293B" stroke-width="2" fill="none"/>
+    <path d="M 8 26 C 22 18, 40 30, 56 20" stroke="#10B981" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <!-- Русская М -->
+    <path d="M 12 52 L 12 18 L 24 34 L 36 18 L 36 52" stroke="url(#cg5)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Русская Л -->
+    <path d="M 36 52 L 43 18 L 50 52" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="url(#cg5)">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#10B981" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      ИНЖЕНЕРНО-ПРАВОВЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

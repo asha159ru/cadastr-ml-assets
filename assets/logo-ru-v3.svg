@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="520" height="90" fill="none">
+  <defs>
+    <linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/><stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15, 12)">
+    <polygon points="32,6 58,18 52,56 12,56 6,24" stroke="#22304A" stroke-width="1.5" fill="none"/>
+    <circle cx="32" cy="6" r="2.5" fill="#D4AF37"/>
+    <circle cx="58" cy="18" r="2.5" fill="#D4AF37"/>
+    <circle cx="52" cy="56" r="2.5" fill="#D4AF37"/>
+    <circle cx="12" cy="56" r="2.5" fill="#D4AF37"/>
+    <!-- Слитные кириллические М и Л -->
+    <path d="M 14 50 L 14 22 L 25 38 L 36 22 L 36 50" stroke="url(#cg3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 36 50 L 43 22 L 50 50" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="url(#cg3)">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      ИНЖЕНЕРНО-ПРАВОВЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

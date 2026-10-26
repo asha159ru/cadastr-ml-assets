@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="520" height="90" fill="none">
+  <g transform="translate(15, 12)">
+    <circle cx="32" cy="32" r="26" stroke="#334155" stroke-width="1.5"/>
+    <line x1="32" y1="2" x2="32" y2="10" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="32" y1="54" x2="32" y2="62" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="2" y1="32" x2="10" y2="32" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="54" y1="32" x2="62" y2="32" stroke="#38BDF8" stroke-width="2"/>
+    <!-- Русская М -->
+    <path d="M 16 46 L 16 22 L 24 34 L 32 22 L 32 46" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Русская Л (чистый силуэт Л рядом в едином монолите) -->
+    <path d="M 34 46 L 41 22 L 48 46" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="#38BDF8">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#D4AF37" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      ЭКСПЕРТНЫЙ КАДАСТР И ГЕОДЕЗИЯ
+    </text>
+  </g>
+</svg>

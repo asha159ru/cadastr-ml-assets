@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 90" width="500" height="90" fill="none">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/><stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15, 12)">
+    <!-- Precision square frame with open cadastral corners -->
+    <path d="M 14 8 L 6 8 L 6 16" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 50 8 L 58 8 L 58 16" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 6 48 L 6 56 L 14 56" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 58 48 L 58 56 L 50 56" stroke="#D4AF37" stroke-width="2"/>
+    <!-- Pure Monogram M + L -->
+    <path d="M 16 46 L 16 18 L 28 36 L 40 18 L 40 46" stroke="#F8FAFC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 40 46 L 52 46" stroke="#D4AF37" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="#D4AF37">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      КАДАСТРОВЫЕ И ЗЕМЕЛЬНЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 90" width="500" height="90" fill="none">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/><stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15, 12)">
+    <!-- Isometric parcel polygon -->
+    <polygon points="32,6 58,20 48,56 16,56 6,26" stroke="#334155" stroke-width="1.5" fill="rgba(212,175,55,0.05)"/>
+    <!-- Boundary vertices -->
+    <circle cx="32" cy="6" r="2.5" fill="#D4AF37"/>
+    <circle cx="58" cy="20" r="2.5" fill="#D4AF37"/>
+    <circle cx="48" cy="56" r="2.5" fill="#D4AF37"/>
+    <circle cx="16" cy="56" r="2.5" fill="#D4AF37"/>
+    <circle cx="6" cy="26" r="2.5" fill="#D4AF37"/>
+    <!-- Sharp M and L parcel edges -->
+    <path d="M 16 48 L 22 20 L 32 36 L 42 20 L 48 48" stroke="url(#g3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 32 36 L 32 48 L 42 48" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(85, 28)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="2">
+      КАДАСТР <tspan fill="url(#g3)">МЛ</tspan>
+    </text>
+    <text x="1" y="38" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3.5">
+      ИНЖЕНЕРНО-ПРАВОВЫЕ РЕШЕНИЯ
+    </text>
+  </g>
+</svg>
